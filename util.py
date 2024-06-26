@@ -3,7 +3,7 @@ import random
 from PIL import Image
 import numpy as np
 import torch
-from sklearn import metrics
+from scikit-learn import metrics
 import cv2
 from torch import nn
 def prediction_bar(output,encoder):
